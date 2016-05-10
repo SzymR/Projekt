@@ -1,0 +1,6 @@
+C:\Users\szymo\Desktop\.NET\zajecia 4\MasterPages\MasterPages\bin\MasterPages.dll.config
+C:\Users\szymo\Desktop\.NET\zajecia 4\MasterPages\MasterPages\bin\MasterPages.dll
+C:\Users\szymo\Desktop\.NET\zajecia 4\MasterPages\MasterPages\bin\MasterPages.pdb
+C:\Users\szymo\Desktop\.NET\zajecia 4\MasterPages\MasterPages\obj\Debug\MasterPages.csprojResolveAssemblyReference.cache
+C:\Users\szymo\Desktop\.NET\zajecia 4\MasterPages\MasterPages\obj\Debug\MasterPages.dll
+C:\Users\szymo\Desktop\.NET\zajecia 4\MasterPages\MasterPages\obj\Debug\MasterPages.pdb

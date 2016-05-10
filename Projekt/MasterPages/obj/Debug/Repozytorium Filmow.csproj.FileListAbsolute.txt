@@ -1,0 +1,6 @@
+C:\Users\szymo\Desktop\.NET\Projekt\Projekt\MasterPages\bin\MasterPages.dll.config
+C:\Users\szymo\Desktop\.NET\Projekt\Projekt\MasterPages\bin\MasterPages.dll
+C:\Users\szymo\Desktop\.NET\Projekt\Projekt\MasterPages\bin\MasterPages.pdb
+C:\Users\szymo\Desktop\.NET\Projekt\Projekt\MasterPages\obj\Debug\Repozytorium Filmow.csprojResolveAssemblyReference.cache
+C:\Users\szymo\Desktop\.NET\Projekt\Projekt\MasterPages\obj\Debug\MasterPages.dll
+C:\Users\szymo\Desktop\.NET\Projekt\Projekt\MasterPages\obj\Debug\MasterPages.pdb

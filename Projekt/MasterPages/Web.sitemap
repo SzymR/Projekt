@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+
+  <siteMapNode url="~/WebForm1.aspx" title="Premiery filmowe" description="Home">
+    <siteMapNode title="Top filmy" url="~/Menu_1/Default.aspx" >
+      <siteMapNode url="~/Menu_1/Menu11.aspx" title="Akcji"  />
+      <siteMapNode url="~/Menu_1/Menu_1_2.aspx" title="Komiedowe"  />
+      <siteMapNode url="~/Menu_1/Menu_1_3.aspx" title="Fantasy" />
+    </siteMapNode>
+
+    <siteMapNode title="Menu_2" url="~/Menu_2/Default.aspx" >
+      <siteMapNode url="~/Menu_2/Menu_2_1.aspx" title="Menu_2_1" />
+    </siteMapNode>
+
+    <siteMapNode title="Zaproponuj film" url="~/Menu_3/Default.aspx" >
+      <siteMapNode url="~/Menu_3/Menu_3_1.aspx" title="Menu_3_1" />
+      <siteMapNode url="~/Menu_3/Menu_3_2.aspx" title="Menu_3_2" />
+    </siteMapNode>
+
+  </siteMapNode>
+
+</siteMap>
