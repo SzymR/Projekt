@@ -47,6 +47,15 @@
                             <%# XPath("Price") %>
                         </ItemTemplate>
                     </asp:TemplateField>
+                    <asp:TemplateField HeaderText="Star:">
+                        <ItemTemplate>
+                            <asp:DataList ID="DataList1" runat="server" DataSource='<%# XPathSelect("Starring/Star") %>'>
+<ItemTemplate>
+<%# XPath(".") %> <br/>
+</ItemTemplate>
+</asp:DataList>
+                        </ItemTemplate>
+                    </asp:TemplateField>
                 </Fields>
             </asp:DetailsView>
 </asp:Content>
