@@ -13,5 +13,10 @@ namespace MasterPages.Menu_3
         {
 
         }
+
+        protected void btnAddFilm_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
