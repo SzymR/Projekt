@@ -57,7 +57,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FilmList.xml" />
+    <Content Include="Aktorzy.xml" />
+    <Content Include="FilmList.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="film_reel.png" />
     <Content Include="Menu_1\Default.aspx" />
     <Content Include="Menu_1\Menu11.aspx" />
