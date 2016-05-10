@@ -1,24 +1,21 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="MasterPages.Menu_1.Default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
         <h1>Top Filmy</h1>
-    <asp:XmlDataSource ID="sourceDVD" runat="server" DataFile="/DvdList.xml" XPath="DvdList/DVD" />
-            <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="/DvdList.xml" XPath="" />
+    <asp:XmlDataSource ID="sourceDVD" runat="server" DataFile="/FilmList.xml" XPath="FilmList/Film" />
+            <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="/FilmList.xml" XPath="" />
 
             <asp:GridView ID="GridView1" runat="server" DataSourceID="sourceDVD" AutoGenerateColumns="False" DataKeyNames="ID" OnSelectedIndexChanged="GridView1_SelectedIndexChanged"     GridLines="None"  
-    AllowPaging="true"  
-    CssClass="mGrid"  
-    PagerStyle-CssClass="pgr"  
-    AlternatingRowStyle-CssClass="alt"> 
+    AllowPaging="true" CssClass="mGrid" PagerStyle-CssClass="pgr" AlternatingRowStyle-CssClass="alt"> 
                 <Columns>
                     <asp:CommandField ShowSelectButton="True" />
-                    <asp:TemplateField HeaderText="Title">
+                    <asp:TemplateField HeaderText="Tytuł">
                         <ItemTemplate>
-                            <%# XPath("Title") %><br />
+                            <%# XPath("Tytul") %><br />
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Category">
+                    <asp:TemplateField HeaderText="Kategoria">
                         <ItemTemplate>
-                            <%# XPath("@Category") %><br />
+                            <%# XPath("@Kategoria") %><br />
                         </ItemTemplate>
                     </asp:TemplateField>
                 </Columns>
@@ -26,30 +23,25 @@
 
 
             <asp:DetailsView CssClass="mDetails" ID="DetailsView1" runat="server" DataSourceID="XmlDataSource1" Visible="False" DataKeyNames="ID" AutoGenerateRows="False">
-                <Fields>
-                    <asp:TemplateField HeaderText="Id:">
+                <Fields>                    
+                    <asp:TemplateField HeaderText="Tytuł:">
                         <ItemTemplate>
-                            <%# XPath("@ID") %>
+                            <%# XPath("Tytul") %>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Title:">
+                    <asp:TemplateField HeaderText="Kategoria:">
                         <ItemTemplate>
-                            <%# XPath("Title") %>
+                            <%# XPath("@Kategoria") %>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Category:">
+                    <asp:TemplateField HeaderText="Rok produkcji:">
                         <ItemTemplate>
-                            <%# XPath("@Category") %>
+                            <%# XPath("Rok") %>
                         </ItemTemplate>
                     </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Price:">
+                    <asp:TemplateField HeaderText="Aktorzy:">
                         <ItemTemplate>
-                            <%# XPath("Price") %>
-                        </ItemTemplate>
-                    </asp:TemplateField>
-                    <asp:TemplateField HeaderText="Star:">
-                        <ItemTemplate>
-                            <asp:DataList ID="DataList1" runat="server" DataSource='<%# XPathSelect("Starring/Star") %>'>
+                            <asp:DataList ID="DataList1" runat="server" DataSource='<%# XPathSelect("Aktorzy/Aktor") %>'>
 <ItemTemplate>
 <%# XPath(".") %> <br/>
 </ItemTemplate>

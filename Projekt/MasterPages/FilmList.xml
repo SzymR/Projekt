@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FilmList>
+  <Film ID="1" Kategoria="Akcja">
+    <Tytul>Mroczny Rycerz</Tytul>
+    <Rezyser>Christopher Nolan</Rezyser>
+    <Rok>2008</Rok>
+    <Aktorzy>
+      <Aktor>Christian Bale</Aktor>
+      <Aktor>Heath Ledger</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="2" Kategoria="Dramat">
+    <Tytul>Forrest Gump</Tytul>
+    <Rezyser>Robert Zemeckis</Rezyser>
+    <Rok>1994</Rok>
+    <Aktorzy>
+      <Aktor>Tom Hanks</Aktor>
+      <Aktor>Robin Wright</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="3" Kategoria="Horror">
+    <Tytul>The Others</Tytul>
+    <Rezyser>Alejandro Amenábar</Rezyser>
+    <Rok>2001</Rok>
+    <Aktorzy>
+      <Aktor>Nicole Kidman</Aktor>
+      <Aktor>Christopher Eccleston</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="4" Kategoria="Dramat">
+    <Tytul>Mulholland Drive</Tytul>
+    <Rezyser>David Lynch</Rezyser>
+    <Rok>2001</Rok>
+    <Aktorzy>
+      <Aktor>Laura Harring</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="5" Kategoria="Akcja">
+    <Tytul>Kapitan Ameryka: Wojna bohaterów </Tytul>
+    <Rezyser>Anthony Russo</Rezyser>
+    <Rok>2016</Rok>
+    <Aktorzy>
+      <Aktor>Chris Evans</Aktor>
+      <Aktor>Robert Downey Jr.</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="6" Kategoria="Akcja">
+    <Tytul>Kill Bill</Tytul>
+    <Rezyser>Quentin Tarantino</Rezyser>
+    <Rok>2003</Rok>
+    <Aktorzy>
+      <Aktor>Uma Thurman</Aktor>
+      <Aktor>David Carradine</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="7" Kategoria="Komedia">
+    <Tytul>Kac Vegas</Tytul>
+    <Rezyser>Todd Phillips</Rezyser>
+    <Rok>2009</Rok>
+    <Aktorzy>
+      <Aktor>Bradley Cooper</Aktor>
+      <Aktor>Ed Helms</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="8" Kategoria="Komedia">
+    <Tytul>Seksmisja</Tytul>
+    <Rezyser>Juliusz Machulski</Rezyser>
+    <Rok>1983</Rok>
+    <Aktorzy>
+      <Aktor>Jerzy Stuhr</Aktor>
+      <Aktor>Olgierd Łukaszewicz</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="9" Kategoria="Komedia">
+    <Tytul>Dzień świra</Tytul>
+    <Rezyser>Marek Koterski </Rezyser>
+    <Rok>2002</Rok>
+    <Aktorzy>
+      <Aktor>Marek Kondrat</Aktor>
+      <Aktor>Janina Traczykówna</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="10" Kategoria="Komedia">
+    <Tytul>Killer</Tytul>
+    <Rezyser>Juliusz Machulski</Rezyser>
+    <Rok>2002</Rok>
+    <Aktorzy>
+      <Aktor>Cezary Pazura</Aktor>
+      <Aktor>Małgorzata Kożuchowska</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="11" Kategoria="Dramat">
+    <Tytul>Zielona mila</Tytul>
+    <Rezyser>Frank Darabont</Rezyser>
+    <Rok>1999</Rok>
+    <Aktorzy>
+      <Aktor>Tom Hanks</Aktor>
+      <Aktor>David Morse</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="12" Kategoria="Dramat">
+    <Tytul>Leon zawodowiec</Tytul>
+    <Rezyser>Luc Besson</Rezyser>
+    <Rok>1994</Rok>
+    <Aktorzy>
+      <Aktor>Jean Reno</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="13" Kategoria="Dramat">
+    <Tytul>Szeregowiec Ryan</Tytul>
+    <Rezyser>Steven Spielberg</Rezyser>
+    <Rok>1998</Rok>
+    <Aktorzy>
+      <Aktor>Tom Hanks</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="14" Kategoria="Dramat">
+    <Tytul>Wyspa tajemnic</Tytul>
+    <Rezyser>Martin Scorsese</Rezyser>
+    <Rok>2010</Rok>
+    <Aktorzy>
+      <Aktor>Leonardo DiCaprio</Aktor>
+    </Aktorzy>
+  </Film>
+  <Film ID="15" Kategoria="Akcja">
+    <Tytul>Avengers</Tytul>
+    <Rezyser>Joss Whedon</Rezyser>
+    <Rok>2012</Rok>
+    <Aktorzy>
+      <Aktor>Robert Downey Jr.</Aktor>
+      <Aktor>Chris Evans</Aktor>
+      <Aktor>Mark Ruffalo</Aktor>
+      <Aktor>Chris Hemsworth</Aktor>
+    </Aktorzy>
+  </Film>
+</FilmList>

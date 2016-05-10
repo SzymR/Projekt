@@ -57,7 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DvdList.xml" />
+    <Content Include="FilmList.xml" />
     <Content Include="film_reel.png" />
     <Content Include="Menu_1\Default.aspx" />
     <Content Include="Menu_1\Menu11.aspx" />

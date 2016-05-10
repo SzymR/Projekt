@@ -5,7 +5,7 @@
     <siteMapNode title="Top filmy" url="~/Menu_1/Default.aspx" >
       <siteMapNode url="~/Menu_1/Menu11.aspx" title="Akcji"  />
       <siteMapNode url="~/Menu_1/Menu_1_2.aspx" title="Komiedowe"  />
-      <siteMapNode url="~/Menu_1/Menu_1_3.aspx" title="Fantasy" />
+      <siteMapNode url="~/Menu_1/Menu_1_3.aspx" title="Dramat" />
     </siteMapNode>
 
     <siteMapNode title="Menu_2" url="~/Menu_2/Default.aspx" >

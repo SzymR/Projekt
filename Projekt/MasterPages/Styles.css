@@ -155,8 +155,9 @@ padding-top: 4px;
 font-style: italic;
 }
 
-.mGrid {   
-    width: 500px;   
+.mGrid {
+    position: center; 
+    width: 800px;   
     background-color: #fff;   
     margin: 5px 0 10px 0;   
     border: solid 1px #525252;   

@@ -16,7 +16,8 @@ namespace MasterPages.Menu_1
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             //    string id = (String)GridView1.DataKeys[GridView1.SelectedIndex].Value; 
-            XmlDataSource1.XPath = "/DvdList/DVD[@ID=" + GridView1.SelectedDataKey.Value.ToString() + "]";
+            XmlDataSource1.XPath = "/FilmList/Film[@ID=" + GridView1.SelectedDataKey.Value.ToString() + "]";
+            
             DetailsView1.Visible = true;
         }
     }
