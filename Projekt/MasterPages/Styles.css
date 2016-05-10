@@ -155,4 +155,67 @@ padding-top: 4px;
 font-style: italic;
 }
 
+.mGrid {   
+    width: 500px;   
+    background-color: #fff;   
+    margin: 5px 0 10px 0;   
+    border: solid 1px #525252;   
+    border-collapse:collapse;   
+}  
+.mGrid td {   
+    padding: 2px;   
+    border: solid 1px #c1c1c1;   
+    color: #717171;   
+}  
+.mGrid th {   
+    padding: 4px 2px;   
+    color: #fff;   
+    background: #424242 url(grd_head.png) repeat-x top;   
+    border-left: solid 1px #525252;   
+    font-size: 0.9em;   
+}  
+.mGrid .alt { background: #fcfcfc url(grd_alt.png) repeat-x top; }  
+.mGrid .pgr { background: #424242 url(grd_pgr.png) repeat-x top; }  
+.mGrid .pgr table { margin: 5px 0; }  
+.mGrid .pgr td {   
+    border-width: 0;   
+    padding: 0 6px;   
+    border-left: solid 1px #666;   
+    font-weight: bold;   
+    color: #fff;   
+    line-height: 12px;   
+ }     
+.mGrid .pgr a { color: #666; text-decoration: none; }  
+.mGrid .pgr a:hover { color: #000; text-decoration: none; } 
+
+.mDetails{
+    margin-top: 20px;
+    margin-left: 50px;
+    border: 0px;
+}
+.mDetails td{
+    border:0px;
+    height: 25px;
+    width:200px;
+}
+.Grid { border: solid 1px #FFFFFF; }
+.Grid td
+{
+border: solid 1px #FFFFFF;
+margin: 1px 1px 1px 1px;
+padding: 1px 1px 1px 1px;
+text-align: center;
+}
+.GridHeader{
+font-weight: bold;
+background-color: #8b8dbb;
+}
+.GridItem{
+background-color: #e6e6e6;
+}
+ 
+.GridAltItem{
+background-color: white;
+}
+
 
